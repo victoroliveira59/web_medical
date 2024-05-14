@@ -3,50 +3,83 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contactnos</title>
+        <title>Contato</title>
+        <link rel="stylesheet" href="./style/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <a href="./main.html"><img src="./img/WEB MEDICAL.png" alt="Logo da clínica"></a>
-            <hr>
-        </header> 
-        <section>
-            <aside>
-                <ul>
-                    <li><a href="./clinica.html">A Clínica</a></li>
-                    <li><a href="./especialistas.html">Nossa equipe</a></li>
-                    <li><a href="./contato.html">Agende sua consulta</a></li>
-                    <li><a href="#">Grupo</a></li>
-                </ul>
-            </aside>
-        </section>
-        <h2>Informe os seus dados de contato abaixo:</h2>
-        <div class="container">
-            <form id="contactForm">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="subject">Assunto:</label>
-                <input type="text" id="subject" name="subject" required>
-        
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-        
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        
-        <footer>
-            <div>
-                <button> <a href="./main.html">Voltar a pagína principal</a></button>
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <a href="./main.html"><img class="logo-img" src="../lib/img/WEB MEDICAL.png" alt="Clínica Web Medical"></a> 
+            </header>
+        <nav>
+            <ul>
+                <li><a href="./clinica.html"> A Clinica</a></li>
+                <li><a href="./especialidades.html"> Especialidades</a></li>
+                <li><a href="./especialistas.html">Nosso Time</a></li>
+                <li><a href="./contato.html"> Contato</a></li>
+            
+            </ul>
+        </nav>
+    </aside>
+        <main class="main">
+            </section>
+            <h2>Informe os seus dados de contato abaixo:</h2>
+            <div class="container">
+                <form id="contactForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="subject">Assunto:</label>
+                    <input type="text" id="subject" name="subject" required>
+            
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+            
+                    <input type="submit" value="Enviar">
+                </form>
             </div>
-            <p>Empresa XYZ Ltda. | Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
-            <p>Telefone: (00) 1234-5678 | Email: contato@empresa.com</p>
-            <p>Copyright © 2024 Empresa XYZ Ltda. Todos os direitos reservados.</p>
-            <p>Versão do Projeto: 1.0 | Data de Atualização: 24/04/2024</p>
+        </main>
+
+        <footer class="rodape" id="contato">
+            <div class="rodape-div">
+                <div class="rodape-div-1">
+                    <div class="rodape-div-1-coluna">
+                
+                        <p>SIA Trecho 5 lote 000 bloco z sala 900 - Guará, Brasília - DF, 70000-010</p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-2">
+                    <div class="rodape-div-2-coluna">
+                        <span><b>Contatos</b></span>
+                        <p>contato@na.na</p>
+                        <p>+55 63 99200-0000</p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-3">
+                    <div class="rodape-div-3-coluna">
+                        <span><b>Links</b></span>
+                        <p><a href="#servicos">Serviços</a></p>
+                        <p><a href="#empresa">Empresa</a></p>
+                        <p><a href="#sobre">Sobre</a></p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-4">
+                    <div class="rodape-div-4-coluna">
+                        <!-- elemento -->
+                        <span><b>Outros</b></span>
+                        <p>Políticas de Privacidade</p>
+                    </div>
+                </div>
+        
+            </div>
+            <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados.</p>
         </footer>
     </body>
     <br>   
