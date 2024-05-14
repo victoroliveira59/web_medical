@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;400i&display=swap" rel="stylesheet">
+
     <title>Web Medical</title>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="styles.css">  
 </head>
 <body>
     <section>
-        <h1>Web Medical</h1>
-        <div>
-            <img src="../lib/img/WEB MEDICAL.png" alt="Clínica Web Medical">
+        <div class="topo">
+            <div class="logoImagem">
+                <img src="../lib/img/WEB MEDICAL.png" 
+                id="Web_madical_cabecalho" 
+                alt="Clínica Web Medical">
+                <h3>WEB Medical</h3>
+                <p>Nós cuidamos de Saúde</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./clinica.html">A Clínica</a></li>
+                    <li><a href="./especialidades.html">Especialidades</a></li>
+                    <li><a href="./especialistas.html">Nossa Equipe</a></li>
+                    <li><a href="./contato.html">Agende sua Consulta</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="./clinica.html">A Clínica</a></li>
-                <li><a href="./especialidades.html">Especialidades</a></li>
-                <li><a href="./especialistas.html">Nossa Equipe</a></li>
-                <li><a href="./contato.html">Agende sua Consulta</a></li>
-                <li><a href="#">Pesquisa</a></li>
-            </ul>
-        </nav>
-        <div>
-            <img src="./img/Logo_main.png" alt="Logo Principal">
+        <div class="carrosel">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <div class="carrossel">
+                <div class="slides">
+                    <div class="slide" id="slide-1"><img src="img/equipeMedica.jpg" alt="Imagem 1"></div>
+                    <div class="slide" id="slide-2"><img src="../ImagensMedico/_23b34ebb-3f82-46a9-ad8b-9de193f9e49b.jpg" alt="Imagem 2"></div>
+                    <div class="slide" id="slide-3"><img src="../ImagensMedico/_5e6c3fa6-e761-45fb-80e9-f4071b82140c.jpg" alt="Imagem 3"></div>
+                </div>
+                <div class="navigation">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>           
         </div>
 
         <div>
             <h2>Especialidades</h2>
-            <ul>
-                <li><a href="#">Ortopedia</a></li>
-                <li><a href="#">Pediatria</a></li>
-                <li><a href="#">Oftamologia</a></li>
-            </ul>
+            <div class="container">
+                <div class="section">
+                    <h2>Ortopedia</h2>
+                    <img src="../ImagensMedico/_f9b1c077-2381-4592-b6df-f4f63d7b2ac1.jpg" alt="Ortopedia">
+                </div>
+                <div class="section">
+                    <h2>Pediatria</h2>
+                    <img src="../ImagensMedico/_c3216ab8-244b-49e0-94b3-cef879c136d6.jpg" alt="Pediatria">
+                </div>
+                <div class="section">
+                    <h2>clinica Geral</h2>
+                    <img src="../ImagensMedico/_799fc39a-aad5-40c5-8636-68540b02e5e7.jpg" alt="Clinica Geral">
+                </div>
+            </div>
         </div>
         <div>
             <h4>Grupo DGV</h4>
@@ -41,9 +72,9 @@
         </div>
     </section>
     <footer>
-        <div>
+        <!-- <div>
             <button> <a href="./main.html">Voltar a pagína principal</a></button>
-        </div>
+        </div> -->
         <div>
             <p>Empresa XYZ Ltda. | Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
             <p>Telefone: (00) 1234-5678 | Email: contato@empresa.com</p>
