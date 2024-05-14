@@ -20,10 +20,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.logoImagem img {
+#Web_madical_cabecalho {
     margin-right: 10px; 
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 70px;
 }
 
 .logoImagem h3, .logoImagem p {
