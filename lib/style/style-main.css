@@ -1,0 +1,179 @@
+#Web_madical_cabecalho {
+    width: 100px; 
+    height: auto; 
+    radius: 0
+}
+
+.topo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    background-color: #F1FEFF;
+}
+
+.logoImagem {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1FEFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoImagem img {
+    margin-right: 10px; /
+}
+
+.logoImagem h3, .logoImagem p {
+    margin: 0;
+    padding: 0; 
+}
+
+.logoImagem h3 {
+    color: #054C69 ;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logoImagem p {
+    color: #FF007A; 
+}
+
+
+.carrossel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 700px; 
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.navigation label {
+    cursor: pointer;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="radio"]:checked + .navigation label {
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#054C69 #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    color: red; 
+}
+
+h2 {
+    color: blue; 
+}
+
+
+.rodape{
+    background-color: #86bcec;
+    color: white;
+    font-size: 14px;
+    font-family: helvetica;
+    position: relative;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+  }
+    .rodape a{
+      text-decoration: none;
+      color: white;
+  }
+    .rodape p{
+      margin-bottom: 5px;
+  }
+    .rodape-div{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      padding: 60px 10px 40px 10px;
+  }
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+      display: flex;
+      width: calc(100% / 4 - 20px);
+      padding: 10px;
+  }
+    .rodape span{
+      font-size: 20px;
+      color: white;
+  }
+    .rodape-direitos{
+      background-color: black;
+      padding: 10px;
+      margin: 0px;
+      text-align: center;
+  }
+  
+  
