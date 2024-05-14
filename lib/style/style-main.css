@@ -21,7 +21,9 @@
 }
 
 .logoImagem img {
-    margin-right: 10px; /
+    margin-right: 10px; 
+    width: 120px;
+    height: 120px;
 }
 
 .logoImagem h3, .logoImagem p {
