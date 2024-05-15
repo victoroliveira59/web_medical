@@ -138,6 +138,11 @@ h2 {
     color: blue; 
 }
 
+.logo-grupo img {
+    width: 40px;
+    height: 40px;
+}
+
 
 .rodape{
     background-color: #86bcec;
