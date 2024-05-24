@@ -12,6 +12,10 @@
     background-color: #F1FEFF;
 }
 
+.topo nav {
+    font-size: 1.3rem;
+}
+
 .logoImagem {
     display: flex; 
     flex-direction: column;
@@ -144,10 +148,55 @@ h2 {
 }
 
 .main{
-    min-height: calc(70vh - 40px);
+    min-height: calc(56vh - 40px);
     padding-bottom: 40px;
     overflow: auto;
+    margin-left: 10px;
 }
+
+.card {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 20px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+   
+}
+
+.card h2 {
+    font-family: helvetica;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.card p {
+    font-family: helvetica;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+} 
+
+
+.card button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+
+}
+
 
 .rodape{
     background-color: #86bcec;
