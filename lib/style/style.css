@@ -6,11 +6,12 @@
 }
 
 .topo {
+    
     display: flex;
     justify-content: center; 
     align-items: center; 
     padding: 10px; 
-    background-color: #F1FEFF;
+    background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230));
 }
 
 .topo nav {
@@ -21,8 +22,8 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
-    background-color: #F1FEFF;
     font-family: 'Roboto', sans-serif;
+    background-color:  rgb(212, 117, 212));
 }
 
 #Web_madical_cabecalho {
@@ -55,6 +56,8 @@
     margin: auto;
     margin-top: 20px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0 0;
+  
   }
   
   .slider-main li {
@@ -67,6 +70,7 @@
     height: 800px;
     width: 1200px;
     vertical-align: top;
+    border-radius: 10px;
   }
 
 .slider-main input {
@@ -74,7 +78,7 @@
 }
 
 .slider-main label {
-    background-color: #000;
+    background-color: #154cc2;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -211,7 +215,7 @@ nav ul li a:hover {
     font-size: 20px;
     text-align: center;
     margin: 50px;
-    background-color: rgb(152, 215, 231);
+    background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230));
     border-radius: 15px;
     color: #333;
     width: 400px;
@@ -295,6 +299,8 @@ nav ul li a:hover {
 
 }
 
+
+
 .c-card{
     margin: 30px 60px 0px 50px;
     background-color: whitesmoke;
@@ -319,7 +325,8 @@ nav ul li a:hover {
 }
 
 .c-card>h4 {
-    font-size: 15px;
+    font-family: "Poppinis", sans-serif;
+  font-size: 20px;
   padding-top: 5px;
   margin: 0;
 }
@@ -487,7 +494,7 @@ nav ul li a:hover {
   }
 
 .rodape{
-    background-color: #86bcec;
+    background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230));
     color: white;
     font-size: 14px;
     font-family: helvetica;
