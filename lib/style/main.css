@@ -1,0 +1,202 @@
+@import url("reset.css");
+
+
+#Web_madical_cabecalho {
+    width: 100px; 
+    height: auto; 
+    border-radius: 0;
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230));
+    width: 100%;
+    height: 100%;
+}
+
+.topo nav {
+    font-size: 1.3rem;
+}
+
+.logoImagem {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: inherit;
+}
+
+#Web_madical_cabecalho {
+    margin-right: 10px; 
+    width: 100px;
+    height: 70px;
+}
+
+.logoImagem h3, .logoImagem p {
+    margin: 0;
+    padding: 0; 
+}
+
+.logoImagem h3 {
+    color: #054C69 ;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logoImagem p {
+    color: #FF007A; 
+}
+
+
+.slider-main {
+    display: block;
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0 0;
+  
+  }
+  
+  .slider-main li {
+    list-style: none;
+    position: absolute;
+  }
+  
+  .slider-main img {
+    margin: auto;
+    height: 800px;
+    width: 1200px;
+    vertical-align: top;
+    border-radius: 10px;
+  }
+
+.slider-main input {
+    display: none;
+}
+
+.slider-main label {
+    background-color: #154cc2;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider-main li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider-main li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider-main li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider-main img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider-main li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.navigation label {
+    cursor: pointer;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="radio"]:checked + .navigation label {
+    background-color: black;
+}
+
+
+.card>h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-main .section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-main img{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#054C69 #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    color: red; 
+}
+
+.logo-grupo img {
+    width: 40px;
+    height: 40px;
+}
+
+.main{
+    min-height: calc(56vh - 40px);
+    padding-bottom: 40px;
+    overflow: auto;
+    margin-left: 10px;
+}
+
+.main h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+

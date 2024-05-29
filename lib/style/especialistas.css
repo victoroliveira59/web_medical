@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+
+#time-especialistas{
+    font-family: "Popponis", sans-serif;
+    color: #FF007A;
+    font-size: 40px;
+
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-card{
+    margin: 30px 60px 0px 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    color: #333;
+    width: 400px;
+    height: 420px;
+    box-shadow: rgba(129, 100, 100, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    align-items: top;
+    text-align: center;
+
+}
+
+.c-card>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 8%;
+}
+
+.c-card>h4 {
+    font-family: "Poppinis", sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.c-card>p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 0px;
+    padding: 10px 10px;
+    text-align: left;
+
+}
+
