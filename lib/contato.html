@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<body lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contato</title>
-        <link rel="stylesheet" href="./style/style.css"> 
+
+        <link rel="stylesheet" href="./style/main.css"> 
+        <link rel="stylesheet" href="./style/footer.css">
+        <link rel="stylesheet" href="./style/contato.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
     <body>
-        <aside class="sidebar">
-            <header class="sidebar-header">
-                <a href="./main.html"><img class="logo-img" src="../lib/img/WEB MEDICAL.png" alt="Clínica Web Medical"></a> 
-            </header>
-        <nav>
-            <ul>
-                <li><a href="./clinica.html"> A Clinica</a></li>
-                <li><a href="./especialidades.html"> Especialidades</a></li>
-                <li><a href="./especialistas.html">Nosso Time</a></li>
-                <li><a href="./contato.html"> Contato</a></li>
-            
-            </ul>
-        </nav>
-    </aside>
-        <main class="main">
-            </section>
-            <h2>Informe os seus dados de contato abaixo:</h2>
+        <section>
+            <div class="topo">
+                <div class="logoImagem"><a href="./main.html">
+                    <img src="../lib/img/WEB MEDICAL.png" 
+                    id="Web_madical_cabecalho" 
+                    alt="Clínica Web Medical"></a>
+                    <h3>Web Medical</h3>
+                    <p>Nós cuidamos com amor</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./clinica.html">A Clínica</a></li>
+                        <li><a href="./especialidades.html">Especialidades</a></li>
+                        <li><a href="./especialistas.html">Nossa Equipe</a></li>
+                        <li><a href="./contato.html">Agende sua Consulta</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+        </section>
+        <main class="main-contato">
             <div class="container">
-                <form id="contactForm">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
-            
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-            
-                    <label for="subject">Assunto:</label>
-                    <input type="text" id="subject" name="subject" required>
-            
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-            
-                    <input type="submit" value="Enviar">
-                </form>
+                <div>
+                <h2>Informe os seus dados de contato abaixo:</h2>
+                    <form id="contactForm">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="subject">Assunto:</label>
+                        <input type="text" id="subject" name="subject" required>
+                
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                
+                        <button id="btn" type="submit" value="Enviar">Enviar</button>
+                    </form>
+                    </div>
             </div>
         </main>
-
         <footer class="rodape" id="contato">
             <div class="rodape-div">
                 <div class="rodape-div-1">
@@ -81,6 +92,5 @@
             </div>
             <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados.</p>
         </footer>
-    </body>
-    <br>   
+    </body>  
 </html>
