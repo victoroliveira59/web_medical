@@ -1,0 +1,106 @@
+@import url("reset.css");
+
+.main
+
+.main-clinica {
+    background-color: inherit;
+}
+
+.main-clinica h3 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #81e2e9;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    letter-spacing: -1.6px;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.main-clinica p{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 50px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    margin: 20px auto;
+    
+
+}
+
+#sobre-clinica{
+    font-family: "Poppins", sans-serif;
+    color: #81e2e9;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    letter-spacing: -1.6px;
+    font-weight: 200;
+}
+
+.slider {
+    display: block;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .slider li {
+    list-style: none;
+    position: absolute;
+  }
+  
+  .slider img {
+    margin: auto;
+    height: 400px;
+    width: 900px;
+    vertical-align: top;
+  }
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
