@@ -4,37 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Medical</title>
-    <link rel="stylesheet" href="./style/style.css"> 
+
+    <link rel="stylesheet" href="./style/main.css"> 
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/clinica.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <section>
-        <aside class="sidebar">
-            <header class="sidebar-header">
-                <a  href="./main.html"><img 
-                    class="logo-img" 
-                    src="../lib/img/WEB MEDICAL.png" 
-                    alt="Clínica Web Medical"></a> 
-            </header>
-            <nav>
-                <ul>
-                    <li><a href="./clinica.html"> A Clinica</a></li>
-                    <li><a href="./especialidades.html"> Especialidades</a></li>
-                    <li><a href="./especialistas.html">Nosso Time</a></li>
-                    <li><a href="./contato.html"> Contato</a></li>
-                
-                </ul>
-            </nav>
-        </aside>
-    <main class="main">    
+        <section>
+            <div class="topo">
+                <div class="logoImagem"><a href="./main.html">
+                    <img src="../lib/img/WEB MEDICAL.png" 
+                    id="Web_madical_cabecalho" 
+                    alt="Clínica Web Medical"></a>
+                    <h3>Web Medical</h3>
+                    <p>Nós cuidamos com amor</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./clinica.html">A Clínica</a></li>
+                        <li><a href="./especialidades.html">Especialidades</a></li>
+                        <li><a href="./especialistas.html">Nossa Equipe</a></li>
+                        <li><a href="./contato.html">Agende sua Consulta</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                    </ul>
+                </nav>
+            </div>
+    <main class="main-clinica">
         <div>
-            <h2>Sobre a Clinica</h2>
-            <p> Cuidando da sua saúde com praticidade e qualidade: Web Medical</p>
-            <p> A Web Medical é a sua clínica completa de saúde, onde você encontra diversas especialidades médicas e agendamento de consultas rápido e prático, tudo em um só lugar. Nossa missão é oferecer um atendimento humanizado e de excelência, utilizando os mais modernos recursos tecnológicos para garantir o seu bem-estar.</p>
+            <h3 >Web Medical</h3>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;O novo site da Web Medical foi desenvolvido com foco na acessibilidade, para que todos os pacientes, independentemente de suas necessidades, possam navegar com facilidade e segurança.
+
+    Tecnologia assistiva: O site é compatível com leitores de tela e outras ferramentas de tecnologia assistiva, garantindo o acesso à informação.
+    Navegação intuitiva: O menu principal é simples e organizado, com ícones claros e descritivos, facilitando a localização das informações desejadas.
+    Alto contraste: O site utiliza cores de alto contraste, o que melhora a legibilidade para pessoas com baixa visão.
+    Conteúdo adaptado: Os textos são claros, concisos e fáceis de entender, utilizando linguagem acessível a todos.
+            </p>
         </div>
-        <div> 
-            <img src="./img/capafundo.png" alt="Imagem ilustritiva">
-        </div>
+        <h2 id="sobre-clinica">Conheça nosso espaço</h2>
+        <ul class="slider">
+            <li class="slide">
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="./img/CONSULTORIOS.jpg.webp" alt="Imagem 1">
+            </li>
+            <li class="slide">
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+                <img src="./img/areakids.jpg" alt="Imagem 2">
+            </li>
+            <li class="slide">
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+              <img src="./img/recepcao-medicina.jpg.webp" alt="Imagem 3">
+            </li>
+          </ul>
+          
     </main>
         <footer class="rodape" id="contato">
             <div class="rodape-div">
