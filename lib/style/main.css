@@ -200,3 +200,6 @@ nav ul li a:hover {
     font-style: normal;
 }
 
+li {
+    list-style: none;
+}
