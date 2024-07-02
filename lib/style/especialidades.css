@@ -14,12 +14,12 @@
 }
 
 .card-especialidades{
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     margin: 50px;
-    background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230));
+    background-color: #41D2F2;
     border-radius: 15px;
-    color: #333;
+    color: #0D0D0D;
     width: 400px;
     height: 420px;
     box-shadow: rgba(129, 100, 100, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;

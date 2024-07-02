@@ -2,11 +2,13 @@
 
 
 .rodape{
-    background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230));
+    /* background: linear-gradient(to right, rgb(212, 117, 212), rgb(114, 174, 230)); */
+    /* background-color: #41D2F2; */
     color: white;
-    font-size: 14px;
+    font-size: 1rem;
+    line-height: 24px;
     font-family: helvetica;
-    position: relative;
+    /* position: relative; */
     bottom: 0;
     height: auto;
     width: 100%;
@@ -16,14 +18,14 @@
       text-decoration: none;
       color: white;
   }
-    .rodape p{
+    /* .rodape p{
       margin-bottom: 5px;
-  }
+  } */
     .rodape-div{
       display: flex;
       flex-wrap: wrap;
       align-items: stretch;
-      padding: 60px 10px 40px 10px;
+      padding: 40px 10px 20px 10px;
   }
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
       display: flex;
