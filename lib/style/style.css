@@ -99,7 +99,7 @@
  }
 
  .rodape{
-  background-color: #41D2F2;
+  /* background-color: #41D2F2; */
   color: white;
   font-size: 14px;
   font-family: helvetica;
@@ -115,12 +115,12 @@
   .rodape p{
     margin-bottom: 5px;
 }
-  .rodape-div{
+  /* .rodape-div{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
-}
+} */
   .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
     width: calc(100% / 4 - 20px);

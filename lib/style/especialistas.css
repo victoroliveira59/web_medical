@@ -3,8 +3,8 @@
 
 #time-especialistas{
     font-family: "Popponis", sans-serif;
-    color: #FF007A;
-    font-size: 40px;
+    color: #0D0D0D;
+    font-size: 2rem;
 
 }
 
@@ -19,7 +19,7 @@
     margin: 30px 60px 0px 50px;
     background-color: whitesmoke;
     border-radius: 15px;
-    color: #333;
+    color: #0D0D0D;
     width: 400px;
     height: 420px;
     box-shadow: rgba(129, 100, 100, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -55,4 +55,3 @@
     text-align: left;
 
 }
-
