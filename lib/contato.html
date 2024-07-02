@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contato</title>
-        <link rel="stylesheet" href="./style/style.css"> 
+        <link rel="stylesheet" href="./style/style.css">
+        <script src="./script.js" defer></script> 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
     <body>
@@ -28,18 +29,22 @@
             <div class="container">
                 <form id="contactForm">
                     <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" >
+                    <p id="name-helper" class="helper-text">Mensagem de erro</p>
             
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email">
+                    <p id="email-helper" class="helper-text">Mensagem de eroo</p>
             
                     <label for="subject">Assunto:</label>
-                    <input type="text" id="subject" name="subject" required>
+                    <input type="text" id="subject" name="subject" >
+                    <p id="subject-helper" class="helper-text">Mensagem de erro</p>
             
                     <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <textarea id="message" name="message" rows="5" ></textarea>
+                    <p id="message-helper" class="helper-text">Mensagem de erro</p>
             
-                    <input type="submit" value="Enviar">
+                    <button type="submit" value="Enviar">Enviar</button>
                 </form>
             </div>
         </main>
